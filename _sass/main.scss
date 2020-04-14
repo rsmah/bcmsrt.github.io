@@ -1200,3 +1200,46 @@ a.collapsible:focus {
     }
   }
 }
+
+.resources {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 3rem 0 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+  a {
+    display: block;
+  }
+
+  hr {
+    border: 0.5px solid black;
+  }
+
+  @media screen and (max-width: $transition-width-mobile) {
+    flex-direction: column;
+    align-items: center;
+
+    &:first-child {
+      margin-top: 2rem;
+    }
+
+    &:last-child {
+      margin-bottom: 1rem;
+    }
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  .resource {
+    width: 45%;
+    margin: 2rem 0;
+
+    @media screen and (max-width: $transition-width-mobile) {
+      width: 95%;
+    }
+  }
+}
