@@ -616,7 +616,7 @@ h3.title-roboto-medium {
         align-items: center;
       }
 
-      .post-preview {
+      .post-preview-home {
         max-width: 30%;
 
         @media screen and (max-width: $transition-width-mobile) {
@@ -827,7 +827,6 @@ footer {
 
     @media screen and (max-width: $transition-width-mobile) {
       font-size: 1rem;
-      line-height: 1.5rem;
     }
   }
 
@@ -1069,12 +1068,10 @@ a.collapsible:focus {
 
     p, img {
       &::selection {
-        color: none;
         background: none;
       }
-      /* For Mozilla Firefox */
+
       &::-moz-selection {
-        color: none;
         background: none;
       }
     }
@@ -1141,5 +1138,65 @@ a.collapsible:focus {
 
   .flex-end {
     justify-content: flex-end;
+  }
+}
+
+.post-previews {
+  .post-preview {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 4rem 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+    @media screen and (max-width: $transition-width-mobile) {
+      flex-direction: column;
+      align-items: center;
+
+      &:first-child {
+        margin-top: 2rem;
+      }
+
+      &:last-child {
+        margin-bottom: 1rem;
+      }
+    }
+
+    h3 {
+      font-size: 1.4rem;
+    }
+
+    .post-preview-img {
+      width: 20%;
+      max-width: 200px;
+    }
+
+    .post-preview-excerpt {
+      width: 55%;
+    }
+
+    .post-preview-read-more {
+      width: 15%;
+
+      input[type=button] {
+        background: white;
+        color: black;
+
+        &:hover,
+        &:focus,
+        &:active {
+          color: $ochre-yellow;
+        }
+      }
+    }
+
+    @media screen and (max-width: $transition-width-mobile) {
+      .post-preview-img,
+      .post-preview-excerpt,
+      .post-preview-read-more {
+        width: 90%;
+      }
+    }
   }
 }

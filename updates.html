@@ -4,5 +4,27 @@ title: Updates
 permalink: /updates/
 ---
 <div class="container">
-  <h1>Coming Soon...</h1>
+  <div class="page-title">
+    <h1>News & Updates</h1>
+    <p>The latest stories from the MSRT projects and collaborations.</p>
+  </div>
+
+  <div class="post-previews">
+    {% for post in site.posts limit:3 %}
+    <div class="post-preview">
+      <div class="post-preview-img">
+        <img src="/assets/images/{{ post.image }}">
+      </div>
+      <div class="post-preview-excerpt">
+        <h3>{{ post.title }}</h3>
+        <p style="font-style: italic;">By {{ post.author }}</p>
+        <p class="date">{{ post.date | date: '%B %d, %Y' | upcase }}</p>
+        <p>{{ post.content | strip_html | truncatewords:50 }}</p>
+      </div>
+      <div class="post-preview-read-more">
+        <input type="button" value="READ MORE" onclick="window.open({{ post.url }}, '_self');"/>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </div>
