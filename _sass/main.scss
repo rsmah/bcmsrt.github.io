@@ -171,10 +171,35 @@ header {
       margin: 1.5rem 0;
 
       @media screen and (max-width: $transition-width-mobile) {
-        flex-wrap: wrap;
+        flex-direction: column;
         margin: 0.5rem;
         justify-content: center;
+        align-items: center;
         text-align: center;
+      }
+
+      .header-left {
+        width: 40%;
+        text-align: left;
+      }
+
+      .header-middle {
+        width: 20%;
+        text-align: center;
+      }
+
+      .header-right {
+        width: 40%;
+        text-align: right;
+      }
+
+      @media screen and (max-width: $transition-width-mobile) {
+        .header-left,
+        .header-middle,
+        .header-right {
+          width: 100%;
+          text-align: center;
+        }
       }
 
       h1 {
@@ -182,7 +207,7 @@ header {
         margin: 1rem 0;
         font-size: 2.5rem;
         font-family: 'San Francisco Bold';
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
 
         @media screen and (max-width: $transition-width-largest) {
           font-size: 1.9rem;
@@ -199,7 +224,6 @@ header {
         }
 
         @media screen and (max-width: $transition-width-mobile-small) {
-          font-size: 0.6rem;
         }
       }
 
@@ -221,7 +245,7 @@ header {
         }
 
         @media screen and (max-width: $transition-width-mobile-small) {
-          margin: 0.2rem;
+          display: none;
         }
       }
 
@@ -247,7 +271,6 @@ header {
         }
 
         @media screen and (max-width: $transition-width-mobile-small) {
-          font-size: 0.5rem;
           margin: 0;
         }
       }
@@ -263,7 +286,7 @@ header {
       @media screen and (max-width: $transition-width-mobile) {
         padding: 0em;
         margin: 1rem 1rem 0 0;
-        height: 4rem;
+        height: 2rem;
       }
 
       a {
