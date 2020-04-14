@@ -1067,6 +1067,18 @@ a.collapsible:focus {
       padding: 1em;
     }
 
+    p, img {
+      &::selection {
+        color: none;
+        background: none;
+      }
+      /* For Mozilla Firefox */
+      &::-moz-selection {
+        color: none;
+        background: none;
+      }
+    }
+    
     p {
       font-size: 1rem;
       margin-top: 0;
