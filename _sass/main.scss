@@ -1041,6 +1041,7 @@ footer {
 
 a.collapsible {
   display: block;
+  touch-action: manipulation;
 }
 
 a.collapsible:hover,
@@ -1050,6 +1051,8 @@ a.collapsible:focus {
 }
 
 .collapsible {
+  touch-action: manipulation;
+
   hr {
     margin: 0;
   }
