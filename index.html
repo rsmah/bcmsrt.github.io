@@ -61,29 +61,15 @@ title: MSRT
     <h2 class="title-roboto-medium"><a href="/updates">News and Updates</a></h2>
 
     <div class="post-previews">
-      <div class="post-preview">
-        <a href="/811-experience">
-          <img src="/assets/images/811-image.jpg">
-          <h3>811 Experience</h3>
-          <p class="date">APRIL 4TH, 2020</p>
-        </a>
-      </div>
-
-      <div class="post-preview">
-        <a href="#">
-          <img src="/assets/images/physician.png">
-          <h3>Coming Soon!</h3>
-          <p class="date"></p>
-        </a>
-      </div>
-
-      <div class="post-preview">
-        <a href="#">
-          <img src="/assets/images/projects.png">
-          <h3>Coming Soon!</h3>
-          <p class="date"></p>
-        </a>
-      </div>
+      {% for post in site.posts limit:3 %}
+        <div class="post-preview">
+          <a href="{{ post.url }}">
+            <img src="/assets/images/{{ post.image }}">
+            <h3>{{ post.title }}</h3>
+            <p class="date">{{ post.date | date: '%B %d, %Y' | upcase }}</p>
+          </a>
+        </div>
+      {% endfor %}
     </div>
 
     <div class="read-more">
