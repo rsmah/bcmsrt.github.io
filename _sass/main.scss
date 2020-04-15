@@ -1106,9 +1106,9 @@ a.collapsible:focus {
   margin-top: 2rem;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
 
   @media screen and (max-width: $transition-width-mobile) {
+    flex-wrap: wrap;
     margin-top: 1rem;
   }
 
