@@ -43,13 +43,14 @@ function handleRegionClick(region) {
     provinceElem.textContent = region
     missingProvinceElem.style.display = 'block'
   } else {
+    missingProvinceElem.style.display = 'none'
     if (typeof(links[region]) === "string") {
       // console.log(links[region])
       window.open(links[region], "_blank")
     } else {
       mapElem.style.display = 'none'
       provinceSelectionElem.style.display = 'flex'
-      selectTitleElem.innerText = `Select Your University in ${region}`
+      selectTitleElem.innerText = `Step 2: Select Your University in ${region}`
       Object.entries(links[region]).forEach(university => {
         const uniLinkElem = document.createElement('a')
         const uniTextElem = document.createElement('p')
