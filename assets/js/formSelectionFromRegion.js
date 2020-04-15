@@ -76,7 +76,7 @@ jQuery(document).ready(function () {
     color: '#297699',
     hoverColor: '#999999',
     enableZoom: false,
-    showTooltip: true,
+    showTooltip: screen.width > 900 ? true : false,
     onRegionClick: (element, code, region) => handleRegionClick(region),
   });
 });
