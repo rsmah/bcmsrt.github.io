@@ -107,8 +107,8 @@ function projectHtml(project, signUp=false) {
     signUpButtonContainerElem.appendChild(signUpButtonElem)
     signUpButtonElem.setAttribute("id", "email-submit-btn")
     signUpButtonElem.setAttribute("type", "button")
-    signUpButtonElem.setAttribute("value", "Sign Up")
-    signUpButtonElem.setAttribute("onclick", "window.open('https://forms.gle/HuHVxpsCuT1jLLvi8', '_blank')")
+    signUpButtonElem.setAttribute("value", "Volunteer")
+    signUpButtonElem.setAttribute("onclick", "window.open('/select-region-volunteer', '_self')")
     projectInfoElem.appendChild(signUpButtonContainerElem)
   }
 

@@ -1,0 +1,21 @@
+---
+layout: default
+title: Request Support
+permalink: /select-region-support/
+---
+<div class="container">
+  <div class="page-title">
+    <h1 id="select-title">Select Your Province:</h1>
+    <p>We'll route you to the correct support request form.</p>
+  </div>
+  <div id="missing-province">
+    <p>We don't have a form for <span id="province"></span> yet!</p>
+    <p>Please email us at wecanmsrt@gmail.com and we'll get you set up right away.</p>
+  </div>
+  <div id="province-map" class="map">
+    <div id="vmap"></div>
+  </div>
+  <div id="province-selection" style="display: none;"></div>
+</div>
+
+<script type="text/javascript" src="/assets/js/formSelectionFromRegion.js" selection="support"></script>
