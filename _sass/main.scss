@@ -1317,3 +1317,29 @@ a.collapsible:focus {
     }
   }
 }
+
+#BC-agreement {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-top: 2rem;
+  padding: 1em;
+  border: 1px solid black;
+  display: none;
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  a {
+    display: inline-block;
+    padding: 1em;
+    text-decoration: underline;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $ochre-yellow;
+    }
+  }
+
+}
