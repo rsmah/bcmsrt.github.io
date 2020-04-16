@@ -50,6 +50,14 @@ export const currentProjects = [
     restrictions: "Year 3 or 4 preferred.",
     notes: "655 W. 12th Avenue. Contact: William Turner, BCCDC, William.Turner@bccdc.ca, (604) 619-1433. Unpaid."
   },
+  {
+    name: "RISE (Rural & Isolated Support Endeavor)",
+    location: "Remote Friendly",
+    description: "The Rural & Isolated Support Endeavor (RISE) was created by a working group of the Society of Rural Physicians of Canada (SRPC) Student Committee. We are dedicated to assisting patients who live in rural areas across Canada experiencing isolation due to the COVID-19 pandemic. Our initiative partners medical students with clients in rural communities across Canada to provide regular check-ins and social connection via phone and/or video platforms.",
+    studentRole: "The student’s role would be communicating with clients who are referred to RISE by their physician. We are expecting volunteers to reach out to their assigned client(s) at least once per week for approximately 20 minutes to 1 hour. We provide a volunteer handbook with information about the process and helpful resources like COVID-19 FAQs and how be a support for someone else.",
+    numStudents: "We are still in the beginning stages and are unsure as to how much client interest we will have. For now, we are happy to include any interested medical students in our volunteer list and will contact them as client referrals come in.",
+    notes: "If interested, please contact us at risecommittee@gmail.com."
+  },
 ]
 
 export const futureProjects = [
