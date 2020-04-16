@@ -61,14 +61,6 @@ export const currentProjects = [
 ]
 
 export const futureProjects = [
-  {
-    name: "Prescription Delivery",
-    location: "Lower Mainland, BC",
-    description: "Seniors and immunocompromised patients are at significant risk for COVID-19 related complications and have increased non-urgent prescription medication needs (ie. prescription refills). Visiting pharmacies to pick up medications may pose a risk to the health of seniors and immunocompromised patients. Family physicians who are familiar with their patients’ medical and social circumstances will enroll patients in the program and medical students will pick up these patients prescription medications and deliver it to their doorstep.",
-    studentRole: "Pick up prescription meds from pharmacy and deliver to patient doorstep.",
-    numStudents: "TBD, estimate of 10",
-    notes: "Currently recruiting physicians and determining feasibility."
-  },
 ]
 
 export const sustainingProjects = [
