@@ -161,11 +161,11 @@ export const sustainingProjects = [
     notes: "If interested, please contact Sam McGuinness at UBC EdTech:  sam.mcguinness@ubc.ca. \nThe capacity expands as new ideas come in, so if you have an idea for how video or other media can be used to reach the public, send an email to Sam. This is technically a FLEX project and STUDENTS ARE NOT INVOLVED IN RECRUITING. In the spirit of fairness, we have outsourced that role entirely to the third party of EdTech.\nYou can send him your answer to these questions: \n1) interest in the project [video topics, particular role [ie, scriptwriting, video editing, graphic design, photography etc]\n2) background, skillsets [do you have experience in content creation? What kind? What are you most comfortable/familiar with?]\n"
   },
   {
-    name: "Supporting Isolated Seniors",
+    name: "Medical Students Supporting Older Adults",
     location: "Remote Friendly",
     description: "The Geriatric Medicine group at Providence Health Care provides outpatient services to frail and vulnerable older adults in Metro Vancouver.  Our clinics are currently closed for face-to-face office visits and we are doing telephone follow-ups only at this time.This is a very difficult time for older adults, especially those who may be isolated without family support. Weekly or bi-weekly check-ins with patients we identify as most vulnerable would be very helpful to their health and wellbeing. Estimated 2hrs/week; unpaid.",
     studentRole: "The student will be assigned 2-3 seniors that the Geriatrics Team identifies as vulnerable or socially isolated. They would be expected to check-in via phone call at least once per week. No health advice should be provided, however if the student identifies any health concerns, they can be connected with the senior’s physician.",
-    numStudents: "15. Currently at capacity.",
+    numStudents: "20. Currently at capacity.",
   },
   {
     name: "Supporting Anesthesiologist Wellness",
