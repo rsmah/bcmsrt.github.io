@@ -58,6 +58,14 @@ export const currentProjects = [
     numStudents: "We are still in the beginning stages and are unsure as to how much client interest we will have. For now, we are happy to include any interested medical students in our volunteer list and will contact them as client referrals come in.",
     notes: "If interested, please contact us at risecommittee@gmail.com."
   },
+  {
+    name: "Helping Alberta",
+    location: "Calgary AB",
+    description: "Helping Alberta was founded by Calgary physicians in order to collect unused PPE (masks, gloves, gowns) to donate to  frontline workers across the province. It has four prongs: collecting unused PPE from companies, a GoFundMe to purchase PPE as needed, 3D printing face shields, and sewing cloth masks.",
+    studentRole: "See above",
+    numStudents: "Currently over 70 volunteers from various backgrounds, including medicine, IT, business, and law.",
+    notes: "If interested, please contact us at volunteer@helpingalberta.com."
+  },
 ]
 
 export const futureProjects = [
