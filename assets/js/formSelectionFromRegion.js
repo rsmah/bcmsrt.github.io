@@ -46,7 +46,7 @@ function handleRegionClick(region) {
   } else {
     missingProvinceElem.style.display = 'none'
     if (typeof(links[region]) === "string") {
-      if (region === "British Columbia") {
+      if (region === "British Columbia" && userAgreementBcElem != undefined) {
         mapElem.style.display = "none"
         userAgreementBcElem.style.display = "block"
       } else {
