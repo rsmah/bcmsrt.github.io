@@ -1,54 +1,11 @@
 export const currentProjects = [
   {
-    name: "BCCH Healthy Minds Centre: Virtual Care Support",
+    name: "Connecting with Compassion",
     location: "Remote Friendly",
-    description: "The Healthy Minds Centre at BCCH would like to expand telemedicine to support patients across the province. Currently BCCH tech support is overwhelmed and cannot assist with this opportunity.",
-    studentRole: "To provide technical support for physicians using Powerchart and Zoom. Answer phone calls during scheduled times. Possible other roles could include the creation of FAQ documents and how to guides for these programs. Unpaid. Current plan is for one 4hour shift/week.",
-    numStudents: "5 students",
-    restrictions: "Years 3 and 4 only",
-    notes: " Prior PowerChart experience required, experience with zoom beneficial."
-  },
-  {
-    name: "Social Media Communications and Campaigns",
-    location: "Remote Friendly",
-    description: "Synthesizing and managing content that is to be communicated through Twitter, Facebook, and Instagram accounts pertaining to the WE CAN COVID-19 Medical Student Response team. Content will focus on highlighting various projects and identifying their current needs to attract community support and awareness. As well, reaching out to various news outlets to write about and promote projects that benefit from increased public awareness ex PPE donation. Currently we are recruiting for news media outreach and contact.",
-    studentRole: "Actively communicating with the other project leads within WE CAN COVID-19 Medical Student Response efforts to remain updated and understand their needs. Collaborate with those leads as well as team members to synthesize Social media posts which highlight the needs of projects and disseminate information as necessary (e.g. infographics or videos produced by the media team). Collaborate with classmates and other groups who have important messages to share related to COVID-19 and discuss these with the team for possible dissemination.",
-    numStudents: "3 (2 more needed)",
-    notes: "Preference will be given to those with previous communications roles or experience managing organizational social media accounts. Please indicate when applying if you have existing contacts working in news media as this would be helpful for specific positions!"
-  },
-  {
-    name: "Home-Made PPE Initiative",
-    location: "Vancouver, BC",
-    description: "The Public Health Agency of Canada has allowed the use of non-medical face masks for the general public, especially in settings where social distancing can be difficult (eg. Grocery stores, public transit). To alleviate public demand for medical masks, this initiative aims to create and distribute home-made cloth face masks to vulnerable populations, who have additional socio-economic barriers preventing social distancing. There is also demand for face masks for non-medical support workers for these populations. We are currently working with local tailors/seamstresses, and have reached out to organizations who can donate fabric and materials.",
-    studentRole: {
-      description: "We are looking for enthusiastic students to fill several key leadership roles:",
-      listItems: [
-        "Communications Director (2 positions): advertise donation and distribution efforts",
-        "Sponsorship Director (2 positions): obtain funding and donations for mask-building materials",
-        "PPE Production Director (1 position): coordinate with tailors/seamstresses/volunteers to produce face masks",
-        "PPE Distribution Director (1 position): coordinate distribution of face masks to public",
-        "We are also taking student volunteers interested in sewing and putting together masks!",
-      ]
-    },
-    numStudents: "6 for above leadership roles, and 10+ volunteers for sewing and assembling masks.",
-    notes: "Preference will be given to students with previous leadership, and public health experience. Experience working with vulnerable populations experience is an asset."
-  },
-  {
-    name: "COVID 3D Printing Rapid Needs Assessment, Validation, and Deployment Team",
-    location: "Remote Friendly",
-    description: "Assessment Team - Performs needs assessments for and effectiveness of HCP driven or literature driven 3D printed solutions - 2 students needed In this role, for which students should have experience with CAD and ideally, a 3D printer. Students would work with clinical associates and independently to identify 3D printed solutions in literature and from HCP requests, to develop prototypes of such requests, and to pass these solutions on to the production team on a cycle of 3-4 days. All work will be done at home. This opportunity is not paid.\n\nDeployment team - 2 students needed. Responsible for coordinating delivery of HCP requests for printed solutions that have been pre-verified with the leadership team or with the Assessment team. Ideally, students will have leadership experience working between several organisations to provide final deliverables such as an event or a product. Will work with supply chain of 3D printers available to ensure timely delivery of solutions with good quality and good infection control. Guidance is provided during initial days on opportunity, and all work will be done at home. This opportunity is not paid.",
-    studentRole: "See above.",
-    numStudents: "2 students for each team (4 total).",
-    notes: "Expected time commitment - Maximum 20hrs/wk."
-  },
-  {
-    name: "BCCDC Tuberculosis (TB) Services Administrative Support",
-    location: "Vancouver BC",
-    description: "TB Services has taken on additional workload with respect to COVID and TB care. Unfortunately, this creates an additional administrative workload at a time where we are already stretched thin. Additional resources to help keep us above water are appreciated.",
-    studentRole: "TB Clinic administrative support in terms of entry of client data/results into our Electronic Medical Record (EMR).",
-    numStudents: "2-3",
-    restrictions: "Year 3 or 4 preferred.",
-    notes: "655 W. 12th Avenue. Contact: William Turner, BCCDC, William.Turner@bccdc.ca, (604) 619-1433. Unpaid."
+    description: "Social distancing during the COVID-19 pandemic is critical for public health, yet it creates a conundrum for frail and vulnerable older adults residing in Long-Term Care (LTC) homes. Residents often rely on visits from family and friends to prevent loneliness, boredom and social isolation. The challenge is even greater for seniors with cognitive impairment who may not fully understand the rationale for why family members are no longer visiting them. There is an urgent need to bridge the communication gap created by social distancing. Technology may be one of the ways to connect family members with long-term care residents, and thus prevent social isolation. We have purchased 50 iPads with data capability for distribution at Mount St. Joseph LTC and UBC hospital for the first phase of this endeavour.",
+    studentRole: "The student will connect with a LTC resident via Zoom/Facetime/videoconference once per week at a regular time. The primary purpose will be to provide social connection and conversation for the seniors. Anticipated time commitment will be 2 hours/week. Unpaid.",
+    numStudents: "25 students total, with 10 reserved for students with conversational fluency in Mandarin or Cantonese to best serve our older adults at MSJ.",
+    notes: "Please indicate on your Google Form if you have conversational fluency in a language other than English."
   },
   {
     name: "RISE (Rural & Isolated Support Endeavor)",
@@ -230,6 +187,57 @@ export const sustainingProjects = [
     numStudents: "6. Currently at capacity.",
     restrictions: "Must be available April 6-24th (we plan to get the bulk of the initial contacts during this time), afterwards, the role will be to continue with ongoing outreach. Any year (1-4). Unpaid.",
     notes: "Currently connected to SafeCareBC, VCH and other hospitals across Canada\nDistributed sites are starting to work on the same process; a team has been established in each site.\nIn the midst of social and news media effort \nWe are actively outreaching organizations via phone and email to recruit donations, and offering pick-up services to certain donors."
+  },
+  {
+    name: "BCCH Healthy Minds Centre: Virtual Care Support",
+    location: "Remote Friendly",
+    description: "The Healthy Minds Centre at BCCH would like to expand telemedicine to support patients across the province. Currently BCCH tech support is overwhelmed and cannot assist with this opportunity.",
+    studentRole: "To provide technical support for physicians using Powerchart and Zoom. Answer phone calls during scheduled times. Possible other roles could include the creation of FAQ documents and how to guides for these programs. Unpaid. Current plan is for one 4hour shift/week.",
+    numStudents: "5 students",
+    restrictions: "Years 3 and 4 only",
+    notes: " Prior PowerChart experience required, experience with zoom beneficial."
+  },
+  {
+    name: "Social Media Communications and Campaigns",
+    location: "Remote Friendly",
+    description: "Synthesizing and managing content that is to be communicated through Twitter, Facebook, and Instagram accounts pertaining to the WE CAN COVID-19 Medical Student Response team. Content will focus on highlighting various projects and identifying their current needs to attract community support and awareness. As well, reaching out to various news outlets to write about and promote projects that benefit from increased public awareness ex PPE donation. Currently we are recruiting for news media outreach and contact.",
+    studentRole: "Actively communicating with the other project leads within WE CAN COVID-19 Medical Student Response efforts to remain updated and understand their needs. Collaborate with those leads as well as team members to synthesize Social media posts which highlight the needs of projects and disseminate information as necessary (e.g. infographics or videos produced by the media team). Collaborate with classmates and other groups who have important messages to share related to COVID-19 and discuss these with the team for possible dissemination.",
+    numStudents: "3 (2 more needed)",
+    notes: "Preference will be given to those with previous communications roles or experience managing organizational social media accounts. Please indicate when applying if you have existing contacts working in news media as this would be helpful for specific positions!"
+  },
+  {
+    name: "Home-Made PPE Initiative",
+    location: "Vancouver, BC",
+    description: "The Public Health Agency of Canada has allowed the use of non-medical face masks for the general public, especially in settings where social distancing can be difficult (eg. Grocery stores, public transit). To alleviate public demand for medical masks, this initiative aims to create and distribute home-made cloth face masks to vulnerable populations, who have additional socio-economic barriers preventing social distancing. There is also demand for face masks for non-medical support workers for these populations. We are currently working with local tailors/seamstresses, and have reached out to organizations who can donate fabric and materials.",
+    studentRole: {
+      description: "We are looking for enthusiastic students to fill several key leadership roles:",
+      listItems: [
+        "Communications Director (2 positions): advertise donation and distribution efforts",
+        "Sponsorship Director (2 positions): obtain funding and donations for mask-building materials",
+        "PPE Production Director (1 position): coordinate with tailors/seamstresses/volunteers to produce face masks",
+        "PPE Distribution Director (1 position): coordinate distribution of face masks to public",
+        "We are also taking student volunteers interested in sewing and putting together masks!",
+      ]
+    },
+    numStudents: "6 for above leadership roles, and 10+ volunteers for sewing and assembling masks.",
+    notes: "Preference will be given to students with previous leadership, and public health experience. Experience working with vulnerable populations experience is an asset."
+  },
+  {
+    name: "COVID 3D Printing Rapid Needs Assessment, Validation, and Deployment Team",
+    location: "Remote Friendly",
+    description: "Assessment Team - Performs needs assessments for and effectiveness of HCP driven or literature driven 3D printed solutions - 2 students needed In this role, for which students should have experience with CAD and ideally, a 3D printer. Students would work with clinical associates and independently to identify 3D printed solutions in literature and from HCP requests, to develop prototypes of such requests, and to pass these solutions on to the production team on a cycle of 3-4 days. All work will be done at home. This opportunity is not paid.\n\nDeployment team - 2 students needed. Responsible for coordinating delivery of HCP requests for printed solutions that have been pre-verified with the leadership team or with the Assessment team. Ideally, students will have leadership experience working between several organisations to provide final deliverables such as an event or a product. Will work with supply chain of 3D printers available to ensure timely delivery of solutions with good quality and good infection control. Guidance is provided during initial days on opportunity, and all work will be done at home. This opportunity is not paid.",
+    studentRole: "See above.",
+    numStudents: "2 students for each team (4 total).",
+    notes: "Expected time commitment - Maximum 20hrs/wk."
+  },
+  {
+    name: "BCCDC Tuberculosis (TB) Services Administrative Support",
+    location: "Vancouver BC",
+    description: "TB Services has taken on additional workload with respect to COVID and TB care. Unfortunately, this creates an additional administrative workload at a time where we are already stretched thin. Additional resources to help keep us above water are appreciated.",
+    studentRole: "TB Clinic administrative support in terms of entry of client data/results into our Electronic Medical Record (EMR).",
+    numStudents: "2-3",
+    restrictions: "Year 3 or 4 preferred.",
+    notes: "655 W. 12th Avenue. Contact: William Turner, BCCDC, William.Turner@bccdc.ca, (604) 619-1433. Unpaid."
   },
 ]
 
