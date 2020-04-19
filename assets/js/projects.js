@@ -66,15 +66,15 @@ export const currentProjects = [
     numStudents: "Currently over 70 volunteers from various backgrounds, including medicine, IT, business, and law.",
     notes: "If interested, please contact us at volunteer@helpingalberta.com."
   },
+  {
+    name: "Bag Half-Full Victoria Chapter",
+    location: "Victoria BC",
+    description: "We provide contactless grocery pick-up and delivery service to older adults, immunocompromised individuals, and others who are unable to get to the stores due to the current risk from COVID-19. We are are a branch of the original project started by two medicial students at the University of Alberta. More branches are emerging, and there is currently a Bag Half-Full project in place in Victoria, Edmonton, Lethbridge, and Ottawa, and one developing in Prince George.",
+    studentRole: "Medical students of any year currently enrolled at UBC Faculty of Medicine.",
+    numStudents: "24 students in the Victoria program. Room for more, and hoping to expand to medical schools across the country.",
+    notes: "If interested, please contact us at baghalffullyyj@gmail.com"
+  }
 ]
-{
-  name: "Bag Half-Full Victoria Chapter"
-  location: "Victoria BC"
-  description: "We provide contactless grocery pick-up and delivery service to older adults, immunocompromised individuals, and others who are unable to get to the stores due to the current risk from COVID-19. We are are a branch of the original project started by two medicial students at the University of Alberta. More branches are emerging, and there is currently a Bag Half-Full project in place in Victoria, Edmonton, Lethbridge, and Ottawa, and one developing in Prince George.
-  studentRole: "Medical students of any year currently enrolled at UBC Faculty of Medicine."
-  numStudents: "24 students in the Victoria program. Room for more, and hoping to expand to medical schools across the country."
-  notes: "If interested, please contact us at baghalffullyyj@gmail.com"
-}
 
 export const futureProjects = [
 ]
