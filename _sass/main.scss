@@ -1235,6 +1235,7 @@ a.collapsible:focus {
   @media screen and (max-width: $transition-width-mobile) {
     flex-direction: column;
     align-items: center;
+    margin: 1rem 0 1rem;
 
     &:first-child {
       margin-top: 2rem;
@@ -1255,6 +1256,7 @@ a.collapsible:focus {
 
     @media screen and (max-width: $transition-width-mobile) {
       width: 95%;
+      margin: 1rem 0;
     }
   }
 }
