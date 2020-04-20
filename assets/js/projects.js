@@ -1,5 +1,14 @@
 export const currentProjects = [
   {
+    name: "Contact Tracing with Alberta Public Health",
+    location: "Calgary AB and Remote Friendly",
+    description: "Medical students, residents (public health and off service), nurses, nursing students and physicians in both Calgary and Edmonton are all working together to drastically scale up provincial contact tracing efforts. This work is done both in person at the Sheldon Chumir Center in Calgary as well as remotely from home.",
+    studentRole: "Students typically work in teams of 5-7 with one student being designated the “team captain.” The team captain liaises with a nurse and helps delegate work to other members of the team. This work typically includes calling a new case to inform them of their positive result, then conducting a thorough interview to find out who they may have come into contact with as well as other information for documentation purposes. Students also call everyone that person has come into contact with and give directions depending on the nature of the contact and whether the person on the phone has symptoms of COVID.",
+    numStudents: "~150 in Calgary, another 150 or so in Edmonton.",
+    restrictions: "Only students with some clerkship experience are eligible to participate (i.e. Classes of 2020 and 2021).",
+    notes: "With our 2020’s starting to move away for residency and our 2021’s now engaged in mandatory online learning, we will soon be in desperate need of more volunteers! Please reach out to Steven.lu1@ucalgary.ca to get involved!"
+  },
+  {
     name: "Connecting with Compassion",
     location: "Remote Friendly",
     description: "Social distancing during the COVID-19 pandemic is critical for public health, yet it creates a conundrum for frail and vulnerable older adults residing in Long-Term Care (LTC) homes. Residents often rely on visits from family and friends to prevent loneliness, boredom and social isolation. The challenge is even greater for seniors with cognitive impairment who may not fully understand the rationale for why family members are no longer visiting them. There is an urgent need to bridge the communication gap created by social distancing. Technology may be one of the ways to connect family members with long-term care residents, and thus prevent social isolation. We have purchased 50 iPads with data capability for distribution at Mount St. Joseph LTC and UBC hospital for the first phase of this endeavour.",
@@ -7,7 +16,7 @@ export const currentProjects = [
     numStudents: "25 students total, with 10 reserved for students with conversational fluency in Mandarin or Cantonese to best serve our older adults at MSJ.",
     notes: "Please indicate on your Google Form if you have conversational fluency in a language other than English."
   },
-  {
+  {  
     name: "RISE (Rural & Isolated Support Endeavor)",
     location: "Remote Friendly",
     description: "The Rural & Isolated Support Endeavor (RISE) was created by a working group of the Society of Rural Physicians of Canada (SRPC) Student Committee. We are dedicated to assisting patients who live in rural areas across Canada experiencing isolation due to the COVID-19 pandemic. Our initiative partners medical students with clients in rural communities across Canada to provide regular check-ins and social connection via phone and/or video platforms.",
@@ -34,7 +43,16 @@ export const currentProjects = [
 ]
 
 export const futureProjects = [
+  {
+    name: "Bag Half-Full Calgary Chapter",
+    location: "Calgary AB",
+    description: "We provide contactless grocery pick-up and delivery service to older adults, immunocompromised individuals, and others who are unable to get to the stores due to the current risk from COVID-19. We are are a branch of the original project started by two medicial students at the University of Alberta.",
+    studentRole: "Medical students of any year currently enrolled at University of Calgary.",
+    numStudents: "No cap on students at the moment.",
+    notes: "If interested, please fill out this form shorturl.at/pBDNZ"
+   }
 ]
+
 
 export const sustainingProjects = [
   {
