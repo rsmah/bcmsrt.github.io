@@ -50,7 +50,7 @@ export const futureProjects = [
     studentRole: "Medical students of any year currently enrolled at University of Calgary.",
     numStudents: "No cap on students at the moment.",
     notes: "If interested, please fill out this form shorturl.at/pBDNZ"
-   }
+   },
 ]
 
 
