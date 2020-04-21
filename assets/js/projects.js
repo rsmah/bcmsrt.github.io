@@ -66,7 +66,7 @@ export const currentProjects = [
     restrictions: "Must be enrolled at the Max Rady College of Medicine",
     notes: "If interested, please contact Kaleigh Ducas-Mowchun at ssipp.manitoba@gmail.com"
   },
-   {
+  {
     name: "Contact Tracing with Winnipeg Regional Health Authority",
     location: "Winnipeg MB",
     description: "Medical students, residents (public health and off service), nurses, and physicians in Manitoba are all working together to drastically scale up provincial contact tracing efforts. This work is currently done both in person at Deerlodge Center in Winnipeg, with the plan to move to remotely service when possible.",
