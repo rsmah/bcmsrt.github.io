@@ -18,13 +18,13 @@ $sign-up-width-mobile: 270px;
 @font-face {
   font-family: "San Francisco Medium";
   font-weight: 500;
-  src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf");
+  src: url("/assets/font/SF-UI-Display-Medium.woff") format('woff');
 }
 
 @font-face {
   font-family: "San Francisco Bold";
   font-weight: 700;
-  src: url("https://sf.abarba.me/SF-UI-Display-Bold.otf");
+  src: url("/assets/font/SF-UI-Display-Bold.woff") format('woff');
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;800&display=swap');
