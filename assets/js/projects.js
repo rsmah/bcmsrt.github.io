@@ -39,7 +39,42 @@ export const currentProjects = [
     studentRole: "Medical students of any year currently enrolled at UBC Faculty of Medicine.",
     numStudents: "24 students in the Victoria program. Room for more, and hoping to expand to medical schools across the country.",
     notes: "If interested, please contact us at baghalffullyyj@gmail.com"
-  }
+  },
+  {
+    name: "MMSA Student Support for Health Care Providers",
+    location: "Winnipeg MB",
+    description: "We provide support to health care providers in Winnipeg, and surrounding communities where available. Many health care providers are without childcare and we are here to try fill that need. We will be pairing volunteers with one family each (limiting community spread).",
+    studentRole: "Duties for students include providing childcare, pet care, grocery and/or pharmacy runs. Preference and availability can be indicated on the registration form.",
+    numStudents: "No cap on students at this moment. Will continue to accept more until needs of Health Care Providers have been met.",
+    restrictions: "Must be enrolled at the Max Rady College of Medicine",
+    notes: "If interested, please contact Cole Kubay and Fiona Vickers at MBMed4HCP@gmail.com"
+  },
+  {
+    name: "MB Medical Student COVID-19 PPE Initiative",
+    location: "Remote Friendly",
+    description: "As the COVID-19 pandemic escalates in Manitoba there is an continued need to maintain adequate personal protective equipment (PPE) for front-line physicians in our emergency rooms. We are currently contacting local businesses and organizations with potential PPE donations and arranging pick-up services for donors.",
+    studentRole: "Duties including calling various local businesses and organizations that may have PPE available to be donated to our frontline workers.",
+    numStudents: "Actively Recruiting",
+    notes: "If interested, please contact Luke Brueton-Campbell at bruetonl@myumanitoba.ca"
+  },
+  {
+    name: "Manitoba Senior Social Isolation Prevention Program (SSIPP)",
+    location: "Remote Friendly",
+    description: "The COVID-19 pandemic is having a serious impact on Canadians, and unfortunately one of the most vulnerable populations includes seniors at risk of social isolation. The Student-Senior Isolation Prevention Partnership (SSIPP) is an initiative started at the University of Toronto that has now branched to other schools around the country",
+    studentRole: "This initiative partners medical students with seniors in the community to provide regular phone check-ins for social comfort and education regarding COVID-19. Student volunteers will be expected to call their assigned elderly friend at least once weekly for an approximately 20 minute check-in phone call, as well as respond to a volunteer coordinator to track their work and progress.",
+    numStudents: "No cap on students at this time.",
+    restrictions: "Must be enrolled at the Max Rady College of Medicine",
+    notes: "If interested, please contact Kaleigh Ducas-Mowchun at ssipp.manitoba@gmail.com"
+  },
+  {
+    name: "Contact Tracing with Winnipeg Regional Health Authority",
+    location: "Winnipeg MB",
+    description: "Medical students, residents (public health and off service), nurses, and physicians in Manitoba are all working together to drastically scale up provincial contact tracing efforts. This work is currently done both in person at Deerlodge Center in Winnipeg, with the plan to move to remotely service when possible.",
+    studentRole: "The job of students will be as Call Centre Agents which entails calling contacts of those testing positive across the province and asking questions from a script (e.g. about symptoms, daily temperature readings, etc.). The contact will then either be advised to stay home and continue self-isolation or will be asked to speak with a Clinical Agent if there are any concerns/need for further management. All students will start out working as a Call Centre Agent but there may be the potential to work as a Clinical Agent in the future under the supervision of a resident or nurse.",
+    numStudents: "Actively Recruiting",
+    restrictions: "Must be Class of 2020, 2021, or 2022 at the Max Rady College of Medicine. Must complete a mandatory training session.",
+    notes: "Training for this position will last around 3 hours. This opportunity MAY also count for academic credit in the future (this is currently in the works). If you have any questions or want to get involved, please contact medcontacttracing@gmail.com."
+  },
 ]
 
 export const futureProjects = [
