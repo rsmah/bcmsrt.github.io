@@ -1284,11 +1284,11 @@ a.collapsible:focus {
 #missing-province {
   display: none;
   color: red;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 
   @media screen and (max-width: $transition-width-mobile) {
     width: 90%;
@@ -1326,7 +1326,6 @@ a.collapsible:focus {
   margin-top: 2rem;
   padding: 1em;
   border: 1px solid black;
-  display: none;
 
   h1 {
     font-size: 1.3rem;

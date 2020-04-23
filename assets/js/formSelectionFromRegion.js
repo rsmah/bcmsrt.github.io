@@ -34,7 +34,6 @@ const provinceSelectionElem = document.getElementById("province-selection")
 const missingProvinceElem = document.getElementById("missing-province")
 const provinceElem = missingProvinceElem.querySelector("#province")
 const selectTitleElem = document.getElementById("select-title")
-const userAgreementBcElem = document.getElementById("BC-agreement")
 
 const selectionType = document.currentScript.getAttribute("selection")
 const links = selectionType === "project" ? projectIntakeLinks : selectionType === "support" ? supportRequestLinks : volunteerIntakeLinks
@@ -46,12 +45,7 @@ function handleRegionClick(region) {
   } else {
     missingProvinceElem.style.display = 'none'
     if (typeof(links[region]) === "string") {
-      if (region === "British Columbia" && userAgreementBcElem != undefined) {
-        mapElem.style.display = "none"
-        userAgreementBcElem.style.display = "block"
-      } else {
-        window.open(links[region], "_blank")
-      }
+      window.open(links[region], "_blank")
     } else {
       mapElem.style.display = 'none'
       provinceSelectionElem.style.display = 'flex'
