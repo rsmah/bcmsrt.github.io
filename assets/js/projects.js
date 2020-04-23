@@ -75,6 +75,14 @@ export const currentProjects = [
     restrictions: "Must be Class of 2020, 2021, or 2022 at the Max Rady College of Medicine. Must complete a mandatory training session.",
     notes: "Training for this position will last around 3 hours. This opportunity MAY also count for academic credit in the future (this is currently in the works). If you have any questions or want to get involved, please contact medcontacttracing@gmail.com."
   },
+  {
+    name: "Canadian Blood Services – 1000 Donors Campaign ",
+    location: "Vancouver BC and Remote Friendly",
+    description: "As the COVID-19 pandemic continues to unfold, the need for blood remains especially when we reach a time when life returns to normalcy. The objective of this campaign is to recruit 1000 donors (sign-ups and appointment) through a physically distanced manner and clarify the donor eligibility in the context of COVID-19. This campaign will involve the creation of an infographics, recruitment effort through social media and a video production that we hope to present during National Donor Week.”,
+    studentRole:  "The students will work together to refine the campaign and implement it during May. Students with experience in social media campaign, graphics design and video editing are preferred. ”
+    numStudents: "Actively Recruiting",
+    notes: "If you are interested, please contact regan_mah@alumni.ubc.ca or at 780-246-7890."
+  },
 ]
 
 export const futureProjects = [
